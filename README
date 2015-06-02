@@ -1,0 +1,9 @@
+This repository should be placed in a boards/ directory which is next to
+the pcbmode/ directory. From the level above that, run:
+
+> python pcbmode/pcbmode.py -b equan-pendant -m
+> python pcbmode/pcbmode.py -b equan-pendant --fab oshpark
+
+Then you can compress everything created in
+boards/equan-pendant/build/production and upload it to OSH Park!
+
