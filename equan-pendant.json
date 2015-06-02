@@ -1,0 +1,40 @@
+{
+  "components": {
+    "LED1": {
+      "footprint": "10mm-led", 
+      "layer": "top", 
+      "location": [
+        0, 
+        15
+      ], 
+      "show": true
+    } 
+  },
+  "outline": {
+    "shape": {
+      "type": "circle",
+      "diameter": 50
+    }
+  },
+  "drills": [
+    {
+      "diameter": 1.5,
+      "location": [3.1, -5.667],
+      "offset": [3.1, -5.667]
+    }
+  ],
+  "files": {
+    "routing-data": "routing.json"
+  }, 
+  "physical": {
+    "stackup": [
+      "top", 
+      "bottom"
+    ]
+  },
+  "config": {
+    "name": "equan-pendant",
+    "rev": "B",
+    "units": "mm"
+  }
+}
